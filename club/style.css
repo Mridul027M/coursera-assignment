@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+body{
+    top: 0;
+    left: 0;
+   background-color: #036666;
+}
+.logo
+{    text-align: center;
+    height: auto;
+    font-size: 7vw;
+    color: #11002c;
+    font-family: 'Big Shoulders Stencil Text', cursive;
+}
+.logo img{
+    position: relative;
+    height: 10vw;
+}
+
+
+.gallery{
+
+    height: auto;
+    font-size: 90px;
+    font-weight: bolder;
+    text-align: center;
+    font-style: oblique;
+    color: #c9ab86;
+    font-family: 'East Sea Dokdo', cursive;
+}
+.img-thumbnail {
+    background: #343a40;
+}
+
+.container .row{
+    position: relative;
+}
+.container .row div img{
+    position: relative;
+    padding: 10px;
+    margin: 10px;
+    transition: .5s;
+}
+
+
+.container .row div img:hover {
+   
+   transform: scale(1.1);
+}
+
+footer{
+    background-color:#343a40;
+}
+
+p{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+.navbar a{
+    font-size: 20px;
+}
+footer .container .row .fa{
+    margin: auto;
+    font-size: 3vw;
+    text-decoration: none;
+}
